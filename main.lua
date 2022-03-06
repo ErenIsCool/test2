@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local Erens_Script_Hub = Instance.new("ScreenGui")
+local ScriptHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
@@ -11,10 +11,10 @@ local TextButton_Roundify_12px = Instance.new("ImageLabel")
 
 --Properties:
 
-Erens_Script_Hub.Name = "Erens_Script_Hub"
-Erens_Script_Hub.Parent = game.Workspace
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = game.Workspace
 
-Frame.Parent = Erens_Script_Hub
+Frame.Parent = ScriptHub
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.364909381, 0, 0.191411048, 0)
 Frame.Size = UDim2.new(0, 327, 0, 502)
@@ -30,7 +30,7 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-TextButton.Parent = Erens_Script_Hub
+TextButton.Parent = ScriptHub
 TextButton.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
 TextButton.BackgroundTransparency = 1.000
 TextButton.BorderSizePixel = 0
@@ -61,7 +61,7 @@ TextButton_Roundify_12px.SliceScale = 0.120
 
 -- Scripts:
 
-local function YKHB_fake_script() -- TextButton.LocalScript 
+local function FPVX_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -69,4 +69,4 @@ local function YKHB_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(YKHB_fake_script)()
+coroutine.wrap(FPVX_fake_script)()
