@@ -1,8 +1,8 @@
-local ScriptHub = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-local TextButton_Roundify_12px = Instance.new("ImageLabel")
+ScriptHub = Instance.new("ScreenGui")
+Frame = Instance.new("Frame")
+TextLabel = Instance.new("TextLabel")
+TextButton = Instance.new("TextButton")
+TextButton_Roundify_12px = Instance.new("ImageLabel")
 
 --Properties:
 
