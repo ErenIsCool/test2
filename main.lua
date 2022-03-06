@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local ScriptHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
